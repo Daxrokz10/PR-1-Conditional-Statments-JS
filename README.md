@@ -2,6 +2,14 @@
 
 A simple, interactive SIP (Systematic Investment Plan) calculator web app built with HTML, CSS, JavaScript, and Bootstrap. The calculator helps users estimate the future value of their monthly investments, expected returns, and total value over a selected period, visualized with a dynamic donut chart.
 
+#Deploy link
+
+https://pr-1-conditional-statments-js.vercel.app/
+
+# Screenshot
+
+![groww](image.png)
+
 ## Features
 
 - **Live Calculation:** Adjust monthly investment, expected return rate, and time period using sliders to see real-time updates.
