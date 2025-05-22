@@ -1,0 +1,142 @@
+body {
+  background: #f8fafc;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.sip-main-card {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.sip-left {
+  flex: 1.3;
+}
+
+.sip-toggle {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sip-toggle-btn {
+  background: #e6f9f0;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  color: #43e97b;
+  font-size: 1rem;
+}
+
+.sip-toggle-btn.active {
+  background: #c6f6e6;
+  color: #000;
+}
+
+.sip-field {
+  margin-bottom: 1.7rem;
+}
+
+.sip-field label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.sip-value-box {
+  display: inline-block;
+  background: #e6f9f0;
+  color: #43e97b;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 0.4rem;
+  height: 4px;
+  background: #e0eafc;
+  accent-color: #43e97b;
+  border-radius: 4px;
+}
+
+.sip-results {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #222;
+}
+
+.sip-results div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.sip-invest-btn {
+  background-color: #43e97b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 2rem;
+  margin-top: 1rem;
+}
+
+.sip-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sip-chart-container {
+  text-align: center;
+}
+
+.sip-legend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.dot {
+  display: inline-block;
+  width: 18px;
+  height: 8px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.invested-dot {
+  background-color: #e0eafc;
+}
+
+.return-dot {
+  background-color: #647dee;
+}
+
+@media (max-width: 768px) {
+  .sip-main-card {
+    flex-direction: column;
+  }
+
+  .sip-right {
+    margin-top: 2rem;
+  }
+}
